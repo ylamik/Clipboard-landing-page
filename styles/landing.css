@@ -1,15 +1,57 @@
-body{
-    background-image: url('../images/bg-header-desktop.png'); 
+body {
+    background-image: url('../images/bg-header-desktop.png');
     background-repeat: no-repeat;
-    background-size: 100% 300px;;
-    
+    background-size: 100% 300px;
+    font-family: Bai Jamjuree;
+    font-size: 18px;
+    color: hsl(210, 10%, 33%);
 }
-.logo{
+
+.logo {
     display: flex;
     justify-content: center;
 }
 
-.logo-icon{
-    height:100px;
-    margin-top:100px;
+.logo-icon {
+    height: 100px;
+    margin-top: 100px;
+}
+
+.history {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.intro-desc {
+    margin-top: -10px;
+    margin-bottom: 35px;
+    width: 650px;
+    text-align: center;
+    color: hsl(201, 11%, 66%);
+}
+
+.title {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.ios-download {
+    padding: 10px 25px 7px 25px;
+    background-color: hsl(171, 66%, 44%);
+    color: white;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0px 2px 0px hsla(171, 60%, 38%, 0.979), 0px 4px 12px hsla(171, 59%, 35%, 0.542);
+    margin-right: 10px;
+}
+
+.Mac-download {
+    padding: 10px 25px 6px 25px;
+    background-color: hsl(233, 100%, 69%);
+    color: white;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0px 2px 0px hsl(233, 55%, 56%), 0px 4px 12px hsla(233, 46%, 51%, 0.685);
+    margin-right: 10px;
 }
