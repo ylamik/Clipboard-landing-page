@@ -5,7 +5,7 @@ body {
     font-family: Bai Jamjuree;
     font-size: 18px;
     color: hsl(210, 10%, 33%);
-    margin-bottom: 130px;
+    margin:0;
 }
 
 .logo {
@@ -221,5 +221,62 @@ body {
     display: flex;
     align-items: center;
     margin-bottom:150px;
+}
+
+footer{
+    position: relative;
+    margin-top: 130px;
+    background-color: hsla(202, 11%, 66%, 0.108);
+    height:100px;
+    padding-top:15px;
+    padding-bottom:15px;
+}
+
+.info-footer{
+    display:grid;
+    grid-template-columns: 200px 1fr 250px;
+    align-items:center;
+}
+
+a{
+    text-decoration: none;
+    color: hsl(210, 10%, 33%);
+    font-weight:400;
+}
+
+.middle-footer{
+    padding-left:150px;
+}
+
+.contact{
+    margin-left:20px;
+
+}
+
+.footer-one{
+    margin-top:20px;
+    
+}
+
+.sec{
+    margin-top:10px
+}
+
+.footer-logo{
+    height:45px;
+    margin-top: 30px;
+    margin-left: 150px;
+}
+
+.contactUs{
+    margin-right: 80px;
+}
+
+.text{
+    margin-right: 130px;
+}
+
+.socials{
+    margin-right:10px;
 }
 
