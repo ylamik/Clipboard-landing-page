@@ -5,6 +5,7 @@ body {
     font-family: Bai Jamjuree;
     font-size: 18px;
     color: hsl(210, 10%, 33%);
+    margin-bottom: 130px;
 }
 
 .logo {
@@ -17,14 +18,14 @@ body {
     margin-top: 100px;
 }
 
-.history {
+.history, .last-section {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top:30px;
 }
 
-.intro-desc {
+.intro-desc, .desc-section {
     margin-top: -10px;
     margin-bottom: 35px;
     width: 650px;
@@ -33,7 +34,16 @@ body {
     line-height: 30px;
 }
 
-.title {
+.title-section{
+    font-size:35px;
+}
+
+.desc-section{
+    width: 680px;
+    margin-bottom:55px;
+}
+
+.title{
     font-size: 39px;
     font-weight: 600;
 }
