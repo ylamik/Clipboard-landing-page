@@ -30,6 +30,7 @@ body {
     width: 650px;
     text-align: center;
     color: hsl(201, 11%, 66%);
+    line-height: 30px;
 }
 
 .title {
@@ -74,7 +75,8 @@ body {
     width:700px;
     margin-top:-5px;
     color: hsl(201, 11%, 66%);
-    margin-bottom:70px;
+    margin-bottom:80px;
+    line-height: 30px;
 }
 
 .computer-image{
@@ -82,7 +84,7 @@ body {
     width:800px;
     float: left;
     margin-left:-50px;
-    margin-right: 100px;;
+    margin-right: 100px;
 }
 
 .float-class{
@@ -100,3 +102,31 @@ body {
     width:82%;
 }
 
+.float{
+    margin-bottom:100px;
+}
+
+.access{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.access-desc {
+    margin-top:-10px;
+    width: 700px;
+    text-align: center;
+    color: hsl(201, 11%, 66%);
+    line-height: 30px;
+}
+
+.access-title {
+    margin-top:150px;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.access-image{
+    width: 58%;
+}
