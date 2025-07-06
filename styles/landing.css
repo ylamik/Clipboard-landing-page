@@ -1,0 +1,15 @@
+body{
+    background-image: url('../images/bg-header-desktop.png'); 
+    background-repeat: no-repeat;
+    background-size: 100% 300px;;
+    
+}
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+.logo-icon{
+    height:100px;
+    margin-top:100px;
+}
