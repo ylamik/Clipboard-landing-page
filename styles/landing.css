@@ -34,7 +34,7 @@ body {
 }
 
 .title {
-    font-size: 30px;
+    font-size: 39px;
     font-weight: 600;
 }
 
@@ -66,7 +66,7 @@ body {
 
 .track-title{
     margin-top:90px;
-    font-size: 25px;
+    font-size: 35px;
     font-weight: 600;
 }
 
@@ -88,8 +88,12 @@ body {
 }
 
 .float-class{
-    padding-top:65px;
-    font-size: 22px;
+    padding-top:55px;
+    font-size: 25px;
+}
+
+.float-title{
+    font-weight: 600;
 }
 
 .caption{
@@ -123,10 +127,61 @@ body {
 
 .access-title {
     margin-top:150px;
-    font-size: 28px;
+    font-size: 35px;
     font-weight: 600;
 }
 
 .access-image{
     width: 58%;
+}
+
+.workflow{
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
+}
+
+.workflow-title{
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.workflow-desc{
+    margin-top:-10px;
+    margin-bottom:70px;
+}
+
+.icons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: top;
+    margin-left:270px;
+    margin-right:270px;
+}
+
+.set{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: top;
+    margin-right:20px;
+}
+
+.inside-icon{
+    width:8%;
+}
+
+.icon-title{
+    font-size:25px;
+    margin-top: 30px;
+    font-weight: 600;
+}
+
+.icon-desc{
+
+    margin-top:-5px;
+    line-height: 30px;
+    text-align: center;
+    color: hsl(201, 11%, 66%);
+    width:400px;
 }
