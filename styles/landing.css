@@ -149,6 +149,7 @@ body {
 .workflow-desc{
     margin-top:-10px;
     margin-bottom:70px;
+    color: hsl(201, 11%, 66%);
 }
 
 .icons{
@@ -178,10 +179,37 @@ body {
 }
 
 .icon-desc{
-
+    margin-bottom: 100px;
     margin-top:-5px;
     line-height: 30px;
     text-align: center;
     color: hsl(201, 11%, 66%);
     width:400px;
 }
+
+.company{
+    display:flex;
+    justify-content: center;
+}
+
+.vector-company{
+    height: 30px;
+}
+
+.microsoft-company{
+    height: 35px;
+}
+
+.vector-company,.hp-company,
+.google-company,.ibm-company,
+.microsoft-company{
+    margin-left:60px;
+    margin-right:60px;
+}
+
+.logo-flex{
+    display: flex;
+    align-items: center;
+    margin-bottom:150px;
+}
+
